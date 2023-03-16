@@ -104,7 +104,7 @@ function ChatMsg(props) {
   return (
     <div>
       <div className={`message ${messageClass} mb-3`}>
-        <img src={photoURL}/>
+        <img alt="profile pic" src={photoURL}/>
         {/* <small>{auth.currentUser.displayName}</small> */}
 
         <p className="mb-0">{text}</p>
