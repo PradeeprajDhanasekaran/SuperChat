@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="p-2"><i><link rel="icon" href="%PUBLIC_URL%/send.png" /></i>SuperChat-v2</h1>
+        <h1 className="p-2"><i><link rel="icon" href="%PUBLIC_URL%/send.png" /></i>SuperChat</h1>
         <SignOut />
       </header>
       <section>{user ? <ChatRoom /> : <SignIn />}</section>
